@@ -1,15 +1,14 @@
 {
-  "name": "@sakun/system.css",
-  "version": "0.1.10",
+  "name": "@booling/system.css",
+  "version": "0.1.11",
   "description": "A design system for building retro Apple interfaces",
   "main": "dist/system.css",
+  "private": "true",
   "directories": {
     "doc": "docs"
   },
   "scripts": {
-    "build": "node build.js",
-    "deploy": "npm run build && gh-pages -d dist",
-    "release": "npm run build && npm publish"
+    "build": "node build.js"
   },
   "repository": {
     "type": "git",
@@ -21,9 +20,6 @@
   ],
   "author": "Sakun Acharige <hey@sakun.co>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/sakofchit/system.css/issues"
-  },
   "homepage": "https://github.com/sakofchit/system.css",
   "devDependencies": {
     "chokidar": "^3.3.1",
